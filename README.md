@@ -4,13 +4,23 @@
 
 In this project we, a group of 5 members, planned, designed and implemented a client-server desktop app for an automatic parking lot chain including GUIs for customers and staff. 
 
-## Implemenatation Details:
+## Project's Structure:
+**Client** - the client is built using JavaFX and OCSF. We use EventBus in order to pass events between classes.<br />
+**Server** - the server is built using OCSF. All the communication to the MySql DB occurs by the server.<br />
+**Entities** - shared module where all the entities of the project live.
+
 - The project is written in Java using OCSF
 - Hibernate ORM with MySQL
 - An event-driven UI using JavaFX
 - Maven as a dependency tool
-##
 
+
+## Running:
+- Run Maven install in the parent project.
+- Run the server using the exec:java goal in the server module.
+- Run the client using the javafx:run goal in the client module.
+
+## Functionalities:
 **_Customers' functionalities are:_**
 - Entering and leaving a parking lot through the interface and charging
 - Signing up as registered customers 
