@@ -2,7 +2,7 @@
 
 ## A system for managing parking lots, staff, customers, orders and memberships for an automatic parking lot chain
 
-In this project we, a group of 5 members, planned, designed and implemented a client-server desktop app for an automatic parking lot chain including GUIs for customers and staff. 
+In this project we, a group of 4 members, planned, designed and implemented a client-server desktop app for an automatic parking lot chain including GUIs for customers and staff. 
 
 ## Project's Structure:
 **Client** - the client is built using JavaFX and OCSF. We use EventBus in order to pass events between classes.<br />
